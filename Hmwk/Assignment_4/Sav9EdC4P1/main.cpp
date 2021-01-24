@@ -18,15 +18,7 @@ const float CNVNLTG=0.264179f;
 //Function Prototypes
 
 //Execution Begins Here
-int conver(float litGas, float galGas, float mpg, int milDriv) {
-    //Calculating Miles/Gallon
-    galGas=litGas*CNVNLTG;
-    mpg=milDriv/galGas;
-    
-    //Display Inputs/Outputs
-    cout<<"miles per gallon:"<<endl;
-    cout<<fixed<<setprecision(2)<<mpg<<endl;
-} 
+int conver(float litGas, float galGas, float mpg, int milDriv);
 
 int main(int argc, char** argv) {
     //Declare Variables
@@ -59,4 +51,14 @@ int main(int argc, char** argv) {
     
     //Exit the Program - Cleanup
     return 0;
+}
+
+int conver(float litGas, float galGas, float mpg, int milDriv) {
+    //Calculating Miles/Gallon
+    galGas=litGas*CNVNLTG;
+    mpg=milDriv/galGas;
+    
+    //Display Inputs/Outputs
+    cout<<"miles per gallon:"<<endl;
+    cout<<fixed<<setprecision(2)<<mpg<<endl;
 }

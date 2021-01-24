@@ -18,6 +18,10 @@ const float CNVNLTG=0.264179f;
 //Function Prototypes
 
 //Execution Begins Here 
+float conver1(float litGas1, float galGas1, float mpg1, int milDriv1);
+
+float conver2(float litGas2, float galGas2, float mpg2, int milDriv2);
+
 int fuelEff(float mpg1, float mpg2);
     
 int main(int argc, char** argv) {
@@ -43,13 +47,13 @@ int main(int argc, char** argv) {
         cin>>milDrv1;
         
         //Calculating Miles/Gallon
-    galGas1=litGas1*CNVNLTG;
-    mpg1=milDrv1/galGas1;
+        mpg1=conver1(litGas1,galGas1,mpg1,milDrv1);
         
         //Display Inputs/Outputs
         cout<<"miles per gallon: ";
         cout<<fixed<<setprecision(2)<<mpg1<<endl;
         cout<<endl;
+        
         //Car 2
         //Initialize Variables
         cout<<"Car 2"<<endl;
@@ -59,13 +63,13 @@ int main(int argc, char** argv) {
         cin>>milDrv2;
         
         //Calculating Miles/Gallon
-    galGas2=litGas2*CNVNLTG;
-    mpg2=milDrv2/galGas2;
+        mpg2=conver2(litGas2,galGas2,mpg2,milDrv2);
         
         //Display Inputs/Outputs
         cout<<"miles per gallon: ";
         cout<<fixed<<setprecision(2)<<mpg2<<endl;
         cout<<endl;
+        
         //Fuel Efficiency
         fuelEff(mpg1,mpg2);
         
@@ -90,3 +94,19 @@ int fuelEff(float mpg1, float mpg2) {
         cout<<endl;
     }
 }
+
+float conver1(float litGas1, float galGas1, float mpg1, int milDrv1) {
+    //Calculating Miles/Gallon
+    galGas1=litGas1*CNVNLTG;
+    mpg1=milDrv1/galGas1;
+    
+    return mpg1;
+} 
+
+float conver2(float litGas2, float galGas2, float mpg2, int milDrv2) {
+    //Calculating Miles/Gallon
+    galGas2=litGas2*CNVNLTG;
+    mpg2=milDrv2/galGas2;
+    
+    return mpg2;
+} 
