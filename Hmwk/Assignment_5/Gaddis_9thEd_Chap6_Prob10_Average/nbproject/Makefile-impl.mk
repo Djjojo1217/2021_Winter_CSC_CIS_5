@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Assignment_4_Menu
+PROJECTNAME=Gaddis_9thEd_Chap6_Prob10_Average
 
 # Active Configuration
 DEFAULTCONF=Debug

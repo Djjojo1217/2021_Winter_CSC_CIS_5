@@ -22,14 +22,15 @@ int main(int argc, char** argv) {
     int num1, //Numbers to Be Inputted
         num2,
         num3,
-        min,
-        max;
+         min,
+         max;
         
     //Initialize Variables
     cout<<"Input 3 numbers"<<endl;
     cin>>num1;
     cin>>num2;
     cin>>num3;
+    min=max=num1;
     
     //Determining Min and Max numbers
     minmax(num1,num2,num3,min,max);
@@ -37,7 +38,7 @@ int main(int argc, char** argv) {
     //Exit stage right!
     return 0;
 }
-void minmax(int num1,int num2,int num3,int& min,int& max){
+void minmax(int num1,int num2,int num3,int &min,int &max){
     
     if (num1>num2 && num1>num3) {
         max=num1;

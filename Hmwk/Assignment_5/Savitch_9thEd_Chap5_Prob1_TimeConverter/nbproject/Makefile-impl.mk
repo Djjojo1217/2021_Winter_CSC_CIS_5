@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Assignment_4_Menu
+PROJECTNAME=Savitch_9thEd_Chap5_Prob1_TimeConverter
 
 # Active Configuration
 DEFAULTCONF=Debug

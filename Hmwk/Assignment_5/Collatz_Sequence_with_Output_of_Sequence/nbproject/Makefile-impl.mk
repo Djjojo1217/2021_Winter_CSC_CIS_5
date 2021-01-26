@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Assignment_4_Menu
+PROJECTNAME=Collatz_Sequence_with_Output_of_Sequence
 
 # Active Configuration
 DEFAULTCONF=Debug

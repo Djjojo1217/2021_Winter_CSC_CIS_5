@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=assignment_4_menu
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/assignment_4_menu
+CND_ARTIFACT_NAME_Debug=collatz_sequence_with_output_of_sequence
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/collatz_sequence_with_output_of_sequence
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=assignment4menu.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/assignment4menu.tar
+CND_PACKAGE_NAME_Debug=collatzsequencewithoutputofsequence.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/collatzsequencewithoutputofsequence.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=assignment_4_menu
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/assignment_4_menu
+CND_ARTIFACT_NAME_Release=collatz_sequence_with_output_of_sequence
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/collatz_sequence_with_output_of_sequence
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=assignment4menu.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/assignment4menu.tar
+CND_PACKAGE_NAME_Release=collatzsequencewithoutputofsequence.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/collatzsequencewithoutputofsequence.tar
 #
 # include compiler specific variables
 #
